@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google font -->
+
+    <!-- Logo Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Element Java Script -->
+    <script src="script.js"></script>
+
+    <!-- Start FontAwesome -->
+    <script src="https://kit.fontawesome.com/4592f70558.js" csrossorigin="anonymous"></script>
+
+    <title>MI NURUL QODIR</title>
+  </head>
+
+  <body>
+    <!--================ Start Header Area =================-->
+    <header class="header">
+      <!-- Start Area Navbar -->
+      <nav>
+        <a class="logo" href="#"><img src="img/logo.png" alt="logo" /></a>
+        <!-- tags mencakup sebuah nav, link -->
+        <ul>
+          <li class="nav-item"><a class="nav-link" href="home">Home</a></li>
+          <div class="dropdown">
+            <button class="dropbtn"><span>Profil </span> <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="#">Sejarah Sekolah</a>
+              <a href="#">Visi & Misi</a>
+              <a href="#">Sarana Prasarana</a>
+              <a href="#">Ekstrakulikuler</a>
+            </div>
+          </div>
+          <li class="nav-item"><a class="nav-link" href="kesiswaan">kesiswaan</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">
+              <span> Informasi</span>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Berita</a>
+              <a href="#">Artikel</a>
+            </div>
+          </div>
+          <li class="nav-item"><a class="nav-link" href="galeri">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="ppdb">PPDB</a></li>
+          <li class="nav-item"><a class="nav-link" href="layanan">Layanan</a></li>
+        </ul>
+
+        <!-- Start Humbleger Menu  -->
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </div>
+      </nav>
+      <!-- End Area Navbar -->
+
+      <div class="textbox">
+        <h3>Welcome To Our School</h3>
+        <h1>Creative Thingking & Innovation</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed optio quod, <br />beatae magni impedit eius similique,voluptas necessitatibus fugit officiis tenetur,<br />
+          est aperiam facilis? Delectus voluptas maxime eveniet tempore expedita!
+        </p>
+        <a href="">Program</a>
+      </div>
+    </header>
+    <!--================ End Header Area =================-->
+
+    <!--================ Start Banner Header Area =================-->
+    <main>
+      <article>
+        <h2>WElCOME TO OUR BOARDING SCHOOL</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos aspernatur placeat natus non magnam amet maiores vitae autem consectetur iste.</p>
+      </article>
+      <section class="content">
+        <div class="box-servis">
+          <div class="box">
+            <h4>FLAGSHIP PROGRAM</h4>
+            <p><i class="fa-solid fa-school fa-4x" style="color: #000000"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#">Learn More...</a>
+          </div>
+        </div>
+        <div class="box-servis">
+          <div class="box">
+            <h4>GREAT ACHIEVEMENT</h4>
+            <p><i class="fa-solid fa-award fa-4x" style="color: #000000"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#">Learn More...</a>
+          </div>
+        </div>
+        <div class="box-servis">
+          <div class="box">
+            <h4>STUDENT ADMISSION</h4>
+            <p><i class="fa-solid fa-id-card fa-4x" style="color: rgb(0, 0, 0), 113, 113"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#">Learn More...</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--================ End Banner Header Area =================-->
+
+    <!--================ Start footer Area =================-->
+    <div class="footer"></div>
+    <!--================ End footer Area =================-->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+  const menutoggle = document.querySelector(".menu-toggle input");
+  const nav = document.querySelector("nav ul");
+
+  menutoggle.addEventListener("click", function () {
+    nav.classList.toggle("slide");
+  });
+});
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
